@@ -49,7 +49,7 @@ Examples:
   python autonomous_agent_demo.py --project-dir my-app
 
   # Use a specific model
-  python autonomous_agent_demo.py --project-dir my-app --model claude-sonnet-4-5-20250929
+  python autonomous_agent_demo.py --project-dir my-app --model claude-sonnet-5-5
 
   # Limit iterations for testing
   python autonomous_agent_demo.py --project-dir my-app --max-iterations 5

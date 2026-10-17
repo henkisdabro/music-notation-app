@@ -159,7 +159,7 @@ class AssistantChatSession:
     """
     Manages a read-only assistant conversation for a project.
 
-    Uses Claude Opus 4.5 with only read-only tools enabled.
+    Uses Claude Opus 5.5 with only read-only tools enabled.
     Persists conversation history to SQLite.
     """
 
@@ -258,7 +258,7 @@ class AssistantChatSession:
         try:
             self.client = ClaudeSDKClient(
                 options=ClaudeAgentOptions(
-                    model="claude-opus-4-5-20251101",
+                    model="claude-opus-5-5",
                     cli_path=system_cli,
                     # System prompt loaded from CLAUDE.md via setting_sources
                     # This avoids Windows command line length limit (~8191 chars)
