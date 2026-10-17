@@ -208,15 +208,15 @@ export function useValidatePath() {
 // Default models response for placeholder (until API responds)
 const DEFAULT_MODELS: ModelsResponse = {
   models: [
-    { id: 'claude-opus-4-5-20251101', name: 'Claude Opus 4.5' },
-    { id: 'claude-sonnet-4-5-20250929', name: 'Claude Sonnet 4.5' },
+    { id: 'claude-opus-5-5', name: 'Claude Opus 5.5' },
+    { id: 'claude-sonnet-5-5', name: 'Claude Sonnet 5.5' },
   ],
-  default: 'claude-opus-4-5-20251101',
+  default: 'claude-opus-5-5',
 }
 
 const DEFAULT_SETTINGS: Settings = {
   yolo_mode: false,
-  model: 'claude-opus-4-5-20251101',
+  model: 'claude-opus-5-5',
   glm_mode: false,
 }
 

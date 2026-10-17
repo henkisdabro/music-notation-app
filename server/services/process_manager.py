@@ -247,7 +247,7 @@ class AgentProcessManager:
 
         Args:
             yolo_mode: If True, run in YOLO mode (no browser testing)
-            model: Model to use (e.g., claude-opus-4-5-20251101)
+            model: Model to use (e.g., claude-opus-5-5)
 
         Returns:
             Tuple of (success, message)
